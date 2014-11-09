@@ -44,6 +44,8 @@ Creates a new dense array with a length of `end-start` elements. `start` is incl
 
 Creates a new dense array with `len` number of elements, from zero to `len-1`. 
 
+If `len` is unspecified, it defaults to zero (empty array). 
+
 ## License
 
 MIT, see [LICENSE.md](http://github.com/mattdesl/array-range/blob/master/LICENSE.md) for details.
