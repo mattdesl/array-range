@@ -25,11 +25,11 @@ array(2, 10).filter( x => x%2===0 )
 It can also be useful for creating a fixed size dense array. Cleaner than `apply` and does not create an intermediate array:  
 
 ```js
-Array.apply(null, new Array(5))
-
-vs.
-
 array(5)
+
+//vs.
+
+Array.apply(null, new Array(5))
 ```
 
 ## Usage
