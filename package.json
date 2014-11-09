@@ -1,6 +1,6 @@
 {
   "name": "array-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "creates a new array with given range",
   "main": "index.js",
   "license": "MIT",
