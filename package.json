@@ -32,5 +32,6 @@
   "homepage": "https://github.com/mattdesl/array-range",
   "bugs": {
     "url": "https://github.com/mattdesl/array-range/issues"
-  }
+  },
+  "typings": "index.d.ts"
 }
