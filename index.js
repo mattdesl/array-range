@@ -9,9 +9,9 @@ module.exports = function newArray(start, end) {
     start = end = 0;
   }
 
-  var len = end - start;
+  const len = end - start;
   if (len < 0) throw new Error("array length must be positive");
 
-  var a = new Array(len).fill(start).map((x, y) => x + y);
+  const a = new Array(len).fill(start).map((x, y) => x + y);
   return a;
-}
+};
